@@ -9,6 +9,9 @@ const User = mongoose.model('User',{
     },
     level : {
         type : Number
+    },
+    image : {
+        type : String
     }
 }
 
